@@ -1,4 +1,6 @@
-class VideosController < ActionController::Base
+class VideosController < ApplicationController
+  before_filter :require_user
+
   layout "application"
   
   def index
@@ -11,6 +13,6 @@ class VideosController < ActionController::Base
   end
 
   def search
-    @match_videos = Video.search_by_title(params[:search_item])
+    @results = Video.search_by_title(params[:search_term])
   end
 end
