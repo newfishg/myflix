@@ -1,0 +1,22 @@
+A P2P file sharing application built from scratch in Ruby.
+https://xorro-p2p.github.io/
+
+Inspired by BitTorrent, IPFS, and P2P Systems past and current, I set out to build one from scratch. Xorro P2P features a full implementation of a Kademlia distributed hash table in Ruby, an administrative web UI built in Sinatra, file sharding and re-assembly, and shard retrieval from multiple sources.
+
+
+
+Terry lee
+
+After discovering my passion for software development, I dove into the world of object-oriented programming, languages like Ruby and JavaScript, and fundamentals like SQL and TDD. My favorite project to date is Xorro P2P, a BitTorrent-like peer-to-peer file sharing network built from scratch. Check it out here: http://xorro-p2p.github.io
+
+Interested in many areas of tech, I am looking for software development opportunities where I can bring in my strong background in product management, project management, UX and web design.
+
+
+https://xorro-p2p.github.io/
+Co-author of a Ruby implementation of a BitTorrent-like file sharing peer-to-peer network
+
+• Conducted in-depth research of P2P systems and distributed hash tables via white papers, specifications and other online resources
+• Implemented a Kademlia distributed hash table from scratch
+• Simulated and scaled a network from a local environment to a real network over course of application development
+• Applied TDD process by writing extensive test cases for requirements before coding
+• Collaborated with remote teammates in New York and Taiwan effectively by utilizing pair programming and organized project planning

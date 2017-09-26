@@ -16,5 +16,10 @@ Video.create(title: 'South Park', description: 'four people and some things', sm
 Video.create(title: 'South Park', description: 'four people and some things', small_cover_url: '/tmp/south_park.jpg', large_cover_url: '/tmp/monk_large.jpg', category: categories.first)
 Video.create(title: 'South Park', description: 'four people and some things', small_cover_url: '/tmp/south_park.jpg', large_cover_url: '/tmp/monk_large.jpg', category: categories.first)
 Video.create(title: 'South Park', description: 'four people and some things', small_cover_url: '/tmp/south_park.jpg', large_cover_url: '/tmp/monk_large.jpg', category: categories.first)
-Video.create(title: 'South Park', description: 'four people and some things', small_cover_url: '/tmp/south_park.jpg', large_cover_url: '/tmp/monk_large.jpg', category: categories.first)
+monk = Video.create(title: 'South Park', description: 'four people and some things', small_cover_url: '/tmp/south_park.jpg', large_cover_url: '/tmp/monk_large.jpg', category: categories.first)
 
+david = User.create(full_name: "David Chen", password: "password", email: "david@example.com")
+ken = User.create(full_name: "Ken Chen", password: "password", email: "ken@example.com")
+
+Review.create(user: david, video: monk, rating: 5, content: "This is a funny video!")
+Review.create(user: david, video: monk, rating: 3, content: "This is not a funny video!")
